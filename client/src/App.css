@@ -1,3 +1,255 @@
 * {
   text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+  background-color: #E03638;
+  color: #FFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #01120d
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #E8F2F4;
+  height: 36px;
+}
+
+.nav a {
+  font-size: 24px;
+  color: #01120d;
+}
+
+.nav a:hover {
+  background-color: #E03638;
+  color: #E8F2F4;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px;
+  color: #01120d;
+}
+
+.banner {
+  width: 55%;
+}
+
+.welcome {
+  width: 75%;
+  background-color: #E8F2F4;
+  color: #01120d;
+  border: 1px solid black;
+  border-radius: 0px 16px 16px 16px;
+}
+
+.page p {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 20px auto 20PX auto;
+  width: 75%;
+}
+
+.links_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+}
+
+.link_container {
+  margin: 30px;
+  background-color: #E8F2F4;
+  color: #E03638;
+  padding: 15px;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 0px 16px 16px 16px;
+}
+.link_container:hover {
+  filter: brightness(80%);
+}
+
+h3 {
+  color: #E03638;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.link_img {
+  width: 85%;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 0px 16px 16px 16px;
+  box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.62);
+  -webkit-box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.62);
+  -moz-box-shadow: 10px 10px 8px -8px rgba(0,0,0,0.62);
+}
+
+.business_list {
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.category {
+  color: #01120d;
+  margin: 60px auto 30px auto;
+}
+
+.business_container {
+  width: 25%;
+  background-color: #E8F2F4;
+  margin: 20px 10px 20px 10px;
+  border: 1px solid #01120d;
+}
+
+.business_name {
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding: 4px;
+}
+
+.footer {
+  height:50px;
+  width: 100%;  
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 75px;
+  padding-bottom: 15px;
+  color: #01120d;
+}
+
+@media only screen and (max-width: 580px){
+  * {
+    max-width: 99%;
+  }
+  .banner {
+    width: 100%;
+  }
+
+  .nav {
+    height: 26px;
+  }
+  
+  .nav a {
+    font-size: 18px;
+  }
+
+  h1 {
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  
+  h2{
+    font-size: 24px;
+    color: #01120d;
+  }
+
+  .welcome {
+    width: 90%;
+  }
+  
+  .page p {
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    margin: 20px auto 20PX auto;
+    width: 90%;
+  }
+  
+  .links_row {
+    flex-direction: column
+  }
+  
+  .link_container {
+    margin: 30px auto 0 auto;
+    padding: 8px;
+    width: 95%;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .business_list {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category {
+    margin: 40px auto 15px auto;
+  }
+  
+  .business_container {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .business_name {
+    font-size: 22px;
+  }
+  
+  .link_img {
+    margin: 7px;
+  }
+  
+  .footer {
+    height:30px; 
+    margin-top: 60px;
+    padding-bottom: 5px;
+  }
+
+  .footer a:visited {
+    color: #01120d;
+  }
+
+  .banner {
+    visibility: hidden;
+  }
+
+  .header {
+    background-image: url('./assets/header.png') ;
+    background-size: 120%;
+    background-position: center;
+  }
+
+
+
+  .welcome {
+    width: 99%;
+    background-color: #E8F2F4;
+    color: #01120d;
+    border: 1px solid black;
+    border-radius: 0px 16px 16px 16px;
+  }
 }
