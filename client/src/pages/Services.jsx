@@ -1,11 +1,21 @@
 import Nav from "../components/Nav"
+import ToTop from "../components/HashLinkTop"
 
 function Services() {
   return (
     <div className="page">
       <Nav/>
+      <ToTop/>
       <h1>Spencer, Iowa Owned and Operated Businesses</h1>
       <h2>Offering Service Booking</h2>
+      <h3 className="category">Automotive</h3>
+      <div className="business_list">
+        <div className="business_container">
+          <a href="https://www.facebook.com/bluewaterdetailingllc">
+            <h3 className="business_name">Blue Water Detailing, LLC</h3>
+          </a>
+        </div>
+      </div>
       <h3 className="category">Beauty & Wellness</h3>
       <div className="business_list">
         <div className="business_container">

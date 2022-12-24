@@ -37,6 +37,20 @@ a:visited {
   color: #E8F2F4;
 }
 
+.to_top {
+  position: fixed;
+  margin-left: 5px;
+  top: 60%;
+  width: auto;
+  scroll-behavior: smooth;
+}
+
+.top {
+  width: 40px;
+  background-color: #01120d;
+  border-radius: 50%;
+}
+
 h1 {
   font-size: 36px;
   text-transform: uppercase;
@@ -160,6 +174,18 @@ h3 {
   
   .nav a {
     font-size: 18px;
+  }
+
+  .to_top {
+    margin-left: -5px;
+    top: 26%;
+    scroll-behavior: smooth;
+  }
+  
+  .top {
+    width: 30px;
+    background-color: #01120d;
+    border-radius: 50%;
   }
 
   h1 {

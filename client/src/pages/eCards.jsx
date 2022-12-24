@@ -1,9 +1,11 @@
 import Nav from "../components/Nav"
+import ToTop from "../components/HashLinkTop"
 
 function eCard() {
   return (
     <div className="page">
       <Nav/>
+      <ToTop/>
       <h1>Spencer, Iowa Owned and Operated Businesses</h1>
       <h2>Offering electronic Gift Cards</h2>
       <h3 className="category">Food & Beverage</h3>

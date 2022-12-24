@@ -1,9 +1,11 @@
 import Nav from "../components/Nav"
+import ToTop from "../components/HashLinkTop"
 
 function Order() {
   return (
     <div className="page">
       <Nav/>
+      <ToTop/>
       <h1>Spencer, Iowa Owned and Operated Businesses</h1>
       <h2>Offering Online Ordering</h2>
       <h3 className="category">Shops & Boutiques</h3>
